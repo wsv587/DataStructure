@@ -11,6 +11,9 @@
 		D0154DC120AB22E000FDDE2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0154DC020AB22E000FDDE2C /* ViewController.swift */; };
 		D0154DC320AB22E100FDDE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0154DC220AB22E100FDDE2C /* Assets.xcassets */; };
 		D0154DC620AB22E100FDDE2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0154DC420AB22E100FDDE2C /* Main.storyboard */; };
+		D0154DCF20AB22FF00FDDE2C /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0154DCE20AB22FF00FDDE2C /* List.swift */; };
+		D0154DD120AB34E300FDDE2C /* LinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0154DD020AB34E300FDDE2C /* LinkList.swift */; };
+		D0AB41C920C295FC003CB35B /* LinkListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AB41C820C295FC003CB35B /* LinkListTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		D0154DC520AB22E100FDDE2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0154DC720AB22E100FDDE2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0154DC820AB22E100FDDE2C /* List.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = List.entitlements; sourceTree = "<group>"; };
+		D0154DCE20AB22FF00FDDE2C /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		D0154DD020AB34E300FDDE2C /* LinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkList.swift; sourceTree = "<group>"; };
+		D0AB41C820C295FC003CB35B /* LinkListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				D0154DBE20AB22E000FDDE2C /* AppDelegate.swift */,
 				D0154DC020AB22E000FDDE2C /* ViewController.swift */,
+				D0154DCE20AB22FF00FDDE2C /* List.swift */,
+				D0154DD020AB34E300FDDE2C /* LinkList.swift */,
+				D0AB41C820C295FC003CB35B /* LinkListTest.swift */,
 				D0154DC220AB22E100FDDE2C /* Assets.xcassets */,
 				D0154DC420AB22E100FDDE2C /* Main.storyboard */,
 				D0154DC720AB22E100FDDE2C /* Info.plist */,
@@ -135,6 +144,9 @@
 			files = (
 				D0154DC120AB22E000FDDE2C /* ViewController.swift in Sources */,
 				D0154DBF20AB22E000FDDE2C /* AppDelegate.swift in Sources */,
+				D0AB41C920C295FC003CB35B /* LinkListTest.swift in Sources */,
+				D0154DCF20AB22FF00FDDE2C /* List.swift in Sources */,
+				D0154DD120AB34E300FDDE2C /* LinkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +282,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = List/List.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8HQB3HG6PA;
+				DEVELOPMENT_TEAM = PT5M85RBBU;
 				INFOPLIST_FILE = List/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -280,6 +293,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.iOS.List;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -289,9 +303,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = List/List.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 8HQB3HG6PA;
+				DEVELOPMENT_TEAM = PT5M85RBBU;
 				INFOPLIST_FILE = List/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sw.iOS.List;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

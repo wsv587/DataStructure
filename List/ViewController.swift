@@ -12,8 +12,16 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //LinkListTest.getElem()
+        //LinkListTest.insertElem()
+        //LinkListTest.deleteElem()
+        
+        //LinkListTest.getLinkList()
+        //LinkListTest.createLinkList()
+        LinkListTest.deleteLinkList()
+        
 
-        // Do any additional setup after loading the view.
     }
 
     override var representedObject: Any? {
